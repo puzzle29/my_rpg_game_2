@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"my_rpg_game_2",
-    "path":"my_rpg_game_2.yyp",
+    "name":"my_rpg_game_git",
+    "path":"my_rpg_game_git.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
