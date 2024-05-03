@@ -71,24 +71,5 @@ function scr_game_text(_text_id){
 									scr_text("Fantôme : Avec ce choix, tu as pu établir un plan d'action pour devenir freelance et vire la vie de tes rêves !")
 									scr_text("Fantôme : Tu peux maintenant te diriger vers le dernier choix important de ta vie en prenant la porte à droite")
 									break;
-									
-		case "girls" : 
-			scr_text("Cassandra : Oh bonjour mon amour")
-			scr_text("Goblin : GNEZJNRJENJE mon amour")
-			scr_text("Moi : Oh mais qu'est-il arrivé à cette créature ?")
-			scr_text("Cassandra : Cette bête sauvage est tombé amoureuse de toi mais ne t'inquiète pas, des homme armées sont en route pour l'abattre !")
-			scr_text("Moi : au moins ELLE est amoureuse de moi ! Contrairement à toi qui n'en veut que pour mon argent...")
-			scr_text("Cassandra : N'importe quoi ! Je t'aime !")
-			scr_text("Cassandra : Tu ne vas tout de même pas choisir cette bête sauvage juste car elle est amoureuse de toi tout de même ?!")
-			scr_text("Moi : Je ne sais pas, c'est toujours flou dans ma tête je ne sais pas laquelle de vous deux choisir... Toi, tu es belle mais avide... Elle est moche mais avec un grand coeur...")
-				scr_option("Choisir Cassandra", "choose cassandra")
-				scr_option("Choisir la bête", "choose goblin")
-			break;
-				case "choose cassandra" : 
-					scr_text("Fantôme : Tu as fait le mauvais choix ! Cassandra te tueras dans ton sommeil pour récupérer ton argent ! ")
-					break;
-				case "choose goblin" :
-					scr_text("Fantôme : Bravo ! Le choix était difficile mais tu as fait le bon ! Il se trouve que la bête était en fait une femme magnifique épris de toi mais victime d'une malédiction !")
-					scr_text("Fantôme : La choisir a défait cette malédiction et vous vivrez heureux jusqu'a la fin des temps...")
 	}
 }
