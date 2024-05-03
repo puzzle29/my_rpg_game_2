@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"my_rpg_game_2",
+  "%Name":"my_rpg_gameTemplate",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -14,7 +14,6 @@
     {"$GMFolder":"","%Name":"Dialogue System","folderPath":"folders/Dialogue System.yy","name":"Dialogue System","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Menu_System","folderPath":"folders/Menu_System.yy","name":"Menu_System","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -32,9 +31,9 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.400.0.549",
+    "IDEVersion":"2024.400.0.556",
   },
-  "name":"my_rpg_game_2",
+  "name":"my_rpg_gameTemplate",
   "resources":[
     {"id":{"name":"Tree_Sprite_Pack","path":"extensions/Tree_Sprite_Pack/Tree_Sprite_Pack.yy",},},
     {"id":{"name":"obj_pauser","path":"objects/obj_pauser/obj_pauser.yy",},},
@@ -51,7 +50,6 @@
     {"id":{"name":"rm_living_room","path":"rooms/rm_living_room/rm_living_room.yy",},},
     {"id":{"name":"rm_second_room","path":"rooms/rm_second_room/rm_second_room.yy",},},
     {"id":{"name":"rm_third_room","path":"rooms/rm_third_room/rm_third_room.yy",},},
-    {"id":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
     {"id":{"name":"room_title_screen","path":"rooms/room_title_screen/room_title_screen.yy",},},
     {"id":{"name":"scr_game_text","path":"scripts/scr_game_text/scr_game_text.yy",},},
     {"id":{"name":"scr_textbox_functions","path":"scripts/scr_textbox_functions/scr_textbox_functions.yy",},},
@@ -91,7 +89,6 @@
     {"roomId":{"name":"room_title_screen","path":"rooms/room_title_screen/room_title_screen.yy",},},
     {"roomId":{"name":"rm_second_room","path":"rooms/rm_second_room/rm_second_room.yy",},},
     {"roomId":{"name":"rm_third_room","path":"rooms/rm_third_room/rm_third_room.yy",},},
-    {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
